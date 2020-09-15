@@ -33,8 +33,8 @@ Requirements:
 * `python3` or `python` is required to run option '-c' which copies history from .bash_history
 
 ``` bash
-git clone https://github.com/jotyGill/quickz-sh.git
-cd quickz-sh
+git clone https://github.com/dwffls/quickstart.git
+cd quickstart
 ./quickz.sh -c        # only run with '-c' the first time, running multiple times will duplicate history entries
 ```
 
