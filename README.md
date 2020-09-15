@@ -1,6 +1,6 @@
 # Quickstart
 
-Fork of jotyGill/quickz-sh with my personal settings.
+Fork of [jotyGill/quickz-sh](https://github.com/jotyGill/quickz-sh) with my personal settings.
 
 Installs the following:
 * powerlevel10k theme (https://github.com/romkatv/powerlevel10k)
