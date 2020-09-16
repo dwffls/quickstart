@@ -28,6 +28,17 @@ cp -f .p10k.zsh ~/
 
 mkdir -p ~/.quickzsh       # external plugins, things, will be instlled in here
 
+if nano --version | grep 2.0.6; then
+    brew install nano
+    hash -r
+fi
+
+if [ -d ~/.nano ]; then
+    echo -e "nano syntax highlighting already installed\n"
+else
+    wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
+fi
+
 if [ -d ~/.oh-my-zsh/plugins/zsh-autosuggestions ]; then
     cd ~/.oh-my-zsh/plugins/zsh-autosuggestions && git pull
 else
