@@ -96,6 +96,14 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+function chpwd() {
+    emulate -L zsh
+    ls
+}
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -200,15 +208,5 @@ ipgeo() {
         curl "http://api.db-ip.com/v2/free/$1"
     else
         curl "http://api.db-ip.com/v2/free/$(myip)"
-    fi
-}
-
-# Show covid-19 spread stats
-corona() {
-    # Specify country otherwise shows stats for all
-    if [ "$1" ]; then
-        curl "https://corona-stats.online/$1"
-    else
-        curl "https://corona-stats.online"
     fi
 }
