@@ -13,6 +13,7 @@ Installs the following:
 * k (https://github.com/supercrabtree/k)
 * marker (https://github.com/pindexis/marker)
 * todotxt (https://github.com/todotxt/todo.txt-cli)
+* nanorc syntax highlighting (https://github.com/scopatz/nanorc)
 
 Sets following useful aliases:
 * l="ls -lah"         - just type "l" instead of "ls -lah"
@@ -25,7 +26,6 @@ Sets following useful aliases:
 * dadjoke - (curl https://icanhazdadjoke.com)         - terminally sick jokes
 * dict - (curl "dict://dict.org/d:$1 $2 $3")          - dictionary definitions
 * ipgeo - (curl "http://api.db-ip.com/v2/free/$1")    - finds geo location from IP
-* corona - (curl "https://corona-stats.online/")      - shows corona virus spread live stats
 
 ## Installation
 Requirements:
