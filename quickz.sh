@@ -136,6 +136,8 @@ fi
 echo -e "\nSudo access is needed to change default shell\n"
 
 if chsh -s $(which zsh) && /bin/zsh -i -c omz update; then
+    echo -e "Removing quickstart folder"
+    rm -r ../quickstart
     echo -e "Installation Successful, exit terminal and enter a new session"
 else
     echo -e "Something is wrong"
