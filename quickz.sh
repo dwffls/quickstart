@@ -63,6 +63,10 @@ else
     git clone --depth=1 https://github.com/zsh-users/zsh-history-substring-search ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
 fi
 
+brew install thefuck
+
+
+
 
 # INSTALL FONTS
 

@@ -83,6 +83,7 @@ plugins=(
     docker
     lol
     pip
+    thefuck
     pyenv
     redis-cli
     screen
@@ -210,3 +211,5 @@ ipgeo() {
         curl "http://api.db-ip.com/v2/free/$(myip)"
     fi
 }
+
+eval $(thefuck --alias)
