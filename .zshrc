@@ -89,7 +89,9 @@ plugins=(
     screen
     systemd
     web-search
-    k
+    dirhistory
+    copypath
+    copybuffer
     # zsh-wakatime          # enable if you use wakatime with 'https://github.com/wbingli/zsh-wakatime'
     zsh-syntax-highlighting
     )
@@ -163,7 +165,7 @@ alias myip="wget -qO- https://wtfismyip.com/text"	# quickly show external ip add
 alias l="ls -lah"
 alias x="exit"
 alias k="k -h"						# show human readable filesizes, in kb, mb etc
-
+alias opendir="nautilus ."
 
 # CUSTOM FUNCTIONS
 
